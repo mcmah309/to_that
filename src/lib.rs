@@ -1,5 +1,9 @@
+//! Declarative compile safe explict type conversion. Useful for chaining.
+
+
 impl<T> To for T {}
 pub trait To: Into<Self> {
+    /// Converts self to R
     fn to<R: From<Self>>(self) -> R {
         R::from(self.into())
     }

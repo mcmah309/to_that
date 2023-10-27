@@ -1,8 +1,8 @@
 [package]
 name = "to_that"
-version = "1.0.0"
+version = "1.0.1"
 edition = "2021"
-description = "Moves a heap allocated `Vec<T>` to an stack allocated array of type `T` and size `N`."
+description = "Declarative compile safe explict type conversion. Useful for chaining."
 repository = "https://github.com/mcmah309/to_that"
 license = "MIT"
 
