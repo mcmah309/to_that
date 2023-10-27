@@ -1,0 +1,11 @@
+[package]
+name = "to_that"
+version = "1.0.0"
+edition = "2021"
+description = "Moves a heap allocated `Vec<T>` to an stack allocated array of type `T` and size `N`."
+repository = "https://github.com/mcmah309/to_that"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
